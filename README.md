@@ -18,7 +18,7 @@ The analysis of outcomes based on launch date was achieved by certain steps.  Fi
 
 ### Analysis of Outcomes based on Goals 
 
-To achieve the analysis of Outcomes based on Goals, I created a new workbook titled “Outcomes Based on Goals”.   In the workbook, I assigned Goal, Number of Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed and Percentage Canceled.  For Goals column, I assigned dollar ranges.   ![alt text] (https://courses.bootcampspot.com/courses/1021/files/1254186/preview). I then procedded to use COUNTIF function to populate Number of Successful, Canceled Failed columns.  The formula that was used is =COUNTIFS(Kickstarter!$D:$D,">=lower value of dollar amount",Kickstarter!$D:$D,"<=higher amount",Kickstarter!$F:$F,"type of outcome for the kickstarter",Kickstarter!$R:$R,"plays")").  To determine the total projects pertaining to goal, I used SUM().  The formula of this function was SUM(Number Successful, Number Failed and Number Canceled).   Percentage were determined by dividing the cell of goal to cell of the total project.  An example of this was taking B2/E2 which produced a successful percentage of 75.81% for a goal less than $1000.  Lastly, I created a line chart to visualize the data.  
+To achieve the analysis of Outcomes based on Goals, I created a new workbook titled “Outcomes Based on Goals”.   In the workbook, I assigned Goal, Number of Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed and Percentage Canceled.  For Goals column, I assigned dollar ranges.   ![alt text](https://courses.bootcampspot.com/courses/1021/files/1254186/preview). I then procedded to use COUNTIF function to populate Number of Successful, Canceled Failed columns.  The formula that was used is =COUNTIFS(Kickstarter!$D:$D,">=lower value of dollar amount",Kickstarter!$D:$D,"<=higher amount",Kickstarter!$F:$F,"type of outcome for the kickstarter",Kickstarter!$R:$R,"plays")").  To determine the total projects pertaining to goal, I used SUM().  The formula of this function was SUM(Number Successful, Number Failed and Number Canceled).   Percentage were determined by dividing the cell of goal to cell of the total project.  An example of this was taking B2/E2 which produced a successful percentage of 75.81% for a goal less than $1000.  Lastly, I created a line chart to visualize the data.  
 
 ### Challenges and Difficulties
 
@@ -28,7 +28,7 @@ I did run into some minor challenges and difficulties with each analysis.  In cr
 
 ### Conclusions of Outcomes based on Launch Date
 
-![alt text] (https://github.com/bmliddicoat/kickstarter-analysis/blob/1d40f813548824148273b8fe6a87d75cddae63f0/Resources/Theature_Outcomes_VS_Launch.png)
+![alt text](https://github.com/bmliddicoat/kickstarter-analysis/blob/1d40f813548824148273b8fe6a87d75cddae63f0/Resources/Theature_Outcomes_VS_Launch.png)
 
 The graph above helps display certain findings from analysis of outcomes based on launch for theater Kickstarters.  Certain months show higher numbers of total success and failure campaigns.  May (111 campaigns) and June (100 campaigns) are the best performing months for success based on total successful projects.  Though further investigation into the numbers, reveals that based on percentage of success versus failure the month of May has strongest historical data of success.  May success rate is around 67% of success and failure rate of 31%.  On the other hand, December is the poorest success rate (49%) and highest failure (46%).  Even though December only has 37 failures but that is out of total 75 campaigns.  In investigating the other months, a trend between 58% to 62% success rate.  On failure rate, the months have a range between 34% and 38%.  It can be determined that May is best month to launch a Kickstarter for theaters and December is the worst month.
 
@@ -36,7 +36,7 @@ The graph above helps display certain findings from analysis of outcomes based o
 
 It can be determined that lower the goal for funding, the higher rate of success will be achieved.  This highest rate of success is in the range lower $1000.  This trend continues of higher success to failure until goal between 15000 and 19999 where it becomes 50% for success and failure.  The trend of higher failure rate then increases with increase of higher goal.  Louise should aim to obtain funding no larger than 4999 if they want to have higher percentage of success.  
 
-![alt text]  (https://github.com/bmliddicoat/kickstarter-analysis/blob/1d40f813548824148273b8fe6a87d75cddae63f0/Resources/Outcomes_vs_Goals.png)
+![alt text](https://github.com/bmliddicoat/kickstarter-analysis/blob/1d40f813548824148273b8fe6a87d75cddae63f0/Resources/Outcomes_vs_Goals.png)
 
 The graph help visualize these findings of the analyzations of success and failure with goal.
 
